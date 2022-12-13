@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="-6.0" layoutY="-1.0" prefHeight="400.0" prefWidth="609.0" style="-fx-background-color: #32687e;">
+         <children>
+            <FlowPane layoutX="203.0" layoutY="145.0" prefHeight="110.0" prefWidth="204.0">
+               <children>
+                  <VBox prefHeight="78.0" prefWidth="149.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="245.0" text="Cliente" />
+                        <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="265.0" text="Propietario" />
+                     </children>
+                  </VBox>
+               </children>
+            </FlowPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

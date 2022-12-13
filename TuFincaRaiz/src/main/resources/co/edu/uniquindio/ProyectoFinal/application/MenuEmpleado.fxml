@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.Login.controllers.ControladorAdministradores">
+   <children>
+      <VBox alignment="CENTER" prefHeight="560.0" prefWidth="280.0" HBox.hgrow="ALWAYS">
+         <children>
+            <VBox alignment="CENTER" prefHeight="112.0" prefWidth="279.0">
+               <children>
+                  <Label prefHeight="117.0" prefWidth="278.0" text="Iniciar Sesión" VBox.vgrow="ALWAYS">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="108.0" prefWidth="256.0" text="Empleado Tu Finca Raiz" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="265.0" prefWidth="279.0">
+               <children>
+                  <Label text="Usuario">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="usuarioIngresado" alignment="CENTER">
+                     <VBox.margin>
+                        <Insets bottom="15.0" top="10.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Contraseña">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="claveIngresada" alignment="CENTER">
+                     <VBox.margin>
+                        <Insets bottom="20.0" top="10.0" />
+                     </VBox.margin>
+                  </PasswordField>
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onIngresarClick" prefHeight="39.0" prefWidth="289.0" text="Ingresar" textOverrun="CLIP">
+                     <VBox.margin>
+                        <Insets left="30.0" right="30.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+            </VBox>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onRecuperacionClick" prefHeight="39.0" prefWidth="222.0" text="Recuperar contraseña!" />
+         </children>
+         <HBox.margin>
+            <Insets left="20.0" right="20.0" />
+         </HBox.margin>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="560.0" prefWidth="560.0" style="-fx-background-color: #32687e;" HBox.hgrow="ALWAYS">
+         <children>
+            <ImageView fx:id="IMGView" fitHeight="406.0" fitWidth="522.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../java/Imagenes/Logo.png" />
+               </image></ImageView>
+         </children></VBox>
+   </children>
+</HBox>

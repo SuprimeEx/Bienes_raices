@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="242.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.anthonyProyecto.application.TipoPropiedadController">
+   <children>
+      <AnchorPane prefHeight="98.0" prefWidth="131.0">
+         <children>
+            <Label layoutX="45.0" layoutY="36.0" text="Tipo De Propiedad " />
+         </children>
+      </AnchorPane>
+      <Button mnemonicParsing="false" onAction="#switchToRegistroApartamento" prefHeight="39.0" prefWidth="150.0" text="Apartamento " />
+      <Button mnemonicParsing="false" onAction="#switchToRegistroBodega" prefHeight="39.0" prefWidth="150.0" text="Bodega" />
+      <Button mnemonicParsing="false" onAction="#switchToRegistroCasa" prefHeight="39.0" prefWidth="150.0" text="Casa" />
+      <Button mnemonicParsing="false" onAction="#switchToRegistroChalet" prefHeight="39.0" prefWidth="150.0" text="Chalet" />
+      <Button mnemonicParsing="false" onAction="#switchToRegistroEdificio" prefHeight="39.0" prefWidth="150.0" text="Edificio" />
+      <Button mnemonicParsing="false" onAction="#switchToRegistroLote" prefHeight="39.0" prefWidth="150.0" text="Lote  " />
+      <Button mnemonicParsing="false" onAction="#switchToRegistroParqueadero" prefHeight="39.0" prefWidth="150.0" text="Parqueadero" />
+      <Button mnemonicParsing="false" onAction="#switchToReturn" prefHeight="39.0" prefWidth="149.0" text="Volver" />
+   </children>
+</VBox>

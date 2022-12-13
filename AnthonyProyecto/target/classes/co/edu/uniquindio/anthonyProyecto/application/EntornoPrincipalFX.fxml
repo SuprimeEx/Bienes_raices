@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.anthonyProyecto.application.EntornoPrincipalController">
+   <children>
+      <VBox layoutX="215.0" layoutY="100.0" prefHeight="62.0" prefWidth="200">
+         <children>
+            <Button mnemonicParsing="false" onAction="#switchToTipoPropiedad" prefHeight="39.0" prefWidth="200" text="Tipo Propiedad" />
+            <Button mnemonicParsing="false" onAction="#switchToTipoPersona" prefHeight="39.0" prefWidth="200" text="Tipo Persona" />
+         </children>
+      </VBox>
+      <Label layoutX="247.0" layoutY="65.0" text="Entorno Principal" />
+   </children>
+</AnchorPane>

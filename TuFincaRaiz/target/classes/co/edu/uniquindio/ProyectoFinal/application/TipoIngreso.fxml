@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="586.0" prefWidth="911.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.Login.controllers.ControladorTipoIngreso">
+   <children>
+      <HBox alignment="BOTTOM_CENTER" prefHeight="162.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="87.0" prefWidth="343.0" text="Ingresar Como:">
+               <font>
+                  <Font size="42.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="177.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onAdministradorClick" prefHeight="40.0" prefWidth="150.0" text="Administrador" />
+            <Button mnemonicParsing="false" onAction="#onEmpleadoClick" prefHeight="40.0" prefWidth="150.0" text="Empleado" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
